@@ -180,8 +180,15 @@
   padding: 154px 98px 190px;
 }
 
+.offer-banner-link {
+  display: inline-block;
+
+  text-decoration: none;
+
+  width: calc(50% - 18px);
+}
+
 .offer-article {
-  width: 50%;
   min-width: 682px;
   padding: 118px 54px 110px;
   box-sizing: border-box;

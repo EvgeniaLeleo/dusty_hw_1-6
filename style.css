@@ -55,6 +55,10 @@
   color: #3d788f;
 }
 
+.menu-link:active {
+  color: #274c5b;
+}
+
 .header-controls-wrapper {
   display: flex;
   gap: 18px;
@@ -118,6 +122,10 @@
 
 .header-button-cart:hover {
   color: #3d788f;
+}
+
+.header-button-cart:active {
+  color: #274c5b;
 }
 
 .header-button-img {
@@ -194,6 +202,10 @@
 
 .banner-button:hover {
   background-color: #efd472cf;
+}
+
+.banner-button:active {
+  background-color: #efd372;
 }
 
 /* OFFER BANNER */
@@ -409,4 +421,8 @@
 
 .about-button:hover {
   background-color: hsl(197, 40%, 30%);
+}
+
+.about-button:active {
+  background: #274c5b;
 }

@@ -20,6 +20,11 @@
   height: 204px;
 }
 
+.header-logo-link {
+  border-radius: 16px;
+  outline-color: #274c5b;
+}
+
 .menu {
   line-height: 204px;
 }
@@ -40,9 +45,17 @@
   font-size: 20px;
   font-weight: 700;
   text-decoration: none;
+
+  border-radius: 16px;
+  outline-color: #274c5b;
+  transition: color 0.1s;
 }
 
-.header-buttons-wrapper {
+.menu-link:hover {
+  color: #3d788f;
+}
+
+.header-controls-wrapper {
   display: flex;
   gap: 18px;
 }
@@ -63,6 +76,7 @@
   border-radius: 36px;
   border: none;
   background: #fafafa;
+  outline-color: #274c5b;
 }
 
 .header-search-wrapper::before {
@@ -96,8 +110,14 @@
   border-radius: 33px;
   border: 1px solid #e0e0e0;
   background-color: #fff;
+  outline-color: #274c5b;
 
   cursor: pointer;
+  transition: color 0.1s;
+}
+
+.header-button-cart:hover {
+  color: #3d788f;
 }
 
 .header-button-img {
@@ -166,8 +186,14 @@
   border-radius: 16px;
   background: #efd372;
   border: none;
+  outline-color: #274c5b;
 
+  transition: background-color 0.1s;
   cursor: pointer;
+}
+
+.banner-button:hover {
+  background-color: #efd472cf;
 }
 
 /* OFFER BANNER */
@@ -186,6 +212,15 @@
   text-decoration: none;
 
   width: calc(50% - 18px);
+
+  border-radius: 30px;
+  outline-color: #274c5b;
+
+  transition: transform 0.1s;
+}
+
+.offer-banner-link:hover {
+  transform: scale(1.01);
 }
 
 .offer-article {
@@ -366,5 +401,12 @@
   border-radius: 16px;
   background: #274c5b;
   border: none;
+  outline-color: #274c5b;
+
+  transition: background-color 0.1s;
   cursor: pointer;
+}
+
+.about-button:hover {
+  background-color: hsl(197, 40%, 30%);
 }

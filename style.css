@@ -9,6 +9,15 @@
   box-sizing: border-box;
 }
 
+.title-highlighted {
+  font-family: 'Yellowtail', Comic Sans MS, cursive;
+  font-size: 36px;
+  font-weight: 400;
+  color: #68a47f;
+
+  margin: 0;
+}
+
 /* HEADER */
 
 .header {
@@ -199,15 +208,6 @@
   width: 50%;
 }
 
-.title-highlighted {
-  font-family: 'Yellowtail', Comic Sans MS, cursive;
-  font-size: 36px;
-  font-weight: 400;
-  color: #68a47f;
-
-  margin: 0;
-}
-
 .banner-subtitle {
   font-size: 70px;
   font-weight: 800;
@@ -358,7 +358,8 @@
 }
 
 .about-text,
-.about-feature-text {
+.about-feature-text,
+.who-we-are-text {
   font-family: 'Open Sans', Helvetica, sans-serif;
   font-size: 18px;
   line-height: 1.65;
@@ -441,4 +442,66 @@
 
 .about-button:active {
   background: #274c5b;
+}
+
+/* WHO WE ARE */
+
+.who-we-are {
+  display: flex;
+  align-items: center;
+
+  margin-left: -120px;
+  margin-right: -120px;
+}
+
+.who-we-are-image {
+  align-self: stretch;
+
+  width: 50%;
+
+  background-color: #68a47f;
+  background-image: url('./images/field.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.who-we-are-text-block {
+  width: 50%;
+  padding: 104px 0;
+  box-sizing: border-box;
+}
+
+.who-we-are-text-wrapper {
+  position: relative;
+  left: -90px;
+
+  padding: 78px 128px 78px 90px;
+  background-color: #fff;
+
+  border-radius: 30px;
+}
+
+.who-we-are-title {
+  margin: 0;
+}
+
+.who-we-are-subtitle {
+  font-size: 50px;
+  font-weight: 800;
+
+  margin: 8px 0 0;
+}
+
+.who-we-are-point-title {
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 1.2;
+  color: #274c5b;
+
+  margin: 35px 0 0;
+}
+
+.who-we-are-text {
+  margin: 8px 0 0;
 }

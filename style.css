@@ -180,7 +180,7 @@
 
   content: '';
 
-  background-image: url('./images/bg-image.jpg');
+  background-image: url('./images/banner-bg.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-blend-mode: multiply;
@@ -196,7 +196,7 @@
 
   content: '';
 
-  background-image: url('./images/bg-pattern.svg');
+  background-image: url('./images/banner-pattern.svg');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -460,7 +460,7 @@
   width: 50%;
 
   background-color: #68a47f;
-  background-image: url('./images/field.jpg');
+  background-image: url('./images/who-we-are-bg.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -504,4 +504,94 @@
 
 .who-we-are-text {
   margin: 8px 0 0;
+}
+
+/* SUBSCRIBE */
+
+.subscribe {
+  padding: 92px 218px 58px;
+}
+
+.subscribe-form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+
+  padding: 80px 60px;
+
+  background-image: url('./images/subscribe-bg.jpg');
+  background-color: #37b5de;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 30px;
+}
+
+.subscribe-form-title {
+  color: #fff;
+  font-size: 50px;
+  font-weight: 800;
+
+  width: 50%;
+  margin: 0;
+}
+
+.subscribe-input-wrapper {
+  flex-grow: 1;
+
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.subscribe-form-input {
+  flex-grow: 1;
+
+  font-family: 'Roboto', Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 1.2;
+  color: #274c5b;
+
+  max-width: 350px;
+  min-width: 200px;
+  padding: 30px 22px;
+  box-sizing: border-box;
+
+  border-radius: 16px;
+  background: #fff;
+  border: none;
+  outline-color: #274c5b;
+}
+
+.subscribe-form-input::placeholder {
+  font-style: italic;
+  line-height: 1.2;
+  color: #ababab;
+}
+
+.subscribe-form-button {
+  color: #fff;
+  font-family: 'Roboto', Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.2;
+
+  padding: 28px;
+
+  border-radius: 16px;
+  background: #274c5b;
+  border: none;
+  outline-color: #274c5b;
+
+  cursor: pointer;
+  transition: background-color 0.1s;
+}
+
+.subscribe-form-button:hover {
+  background-color: hsl(197, 40%, 30%);
+}
+
+.subscribe-form-button:active {
+  background: #274c5b;
 }
